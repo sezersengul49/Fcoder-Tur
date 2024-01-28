@@ -1,0 +1,24 @@
+.header{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/img/header-bg.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+
+    &-content{
+        color: $text-color;
+        text-align: center;
+
+        h1{
+            margin-bottom: 30px;
+            margin-top: 50px;
+            font-size: 7vmin;
+        }
+        h2{
+            font-size: 4vmin;
+        }
+    }
+}
